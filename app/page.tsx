@@ -1,7 +1,7 @@
 import { ProjectCard } from "@/components/ProjectCard";
 import Image from "next/image";
 import Link from "next/link";
-import { Github, Key, Mail } from "lucide-react";
+import { Github, Mail } from "lucide-react";
 
 export default function Home() {
 
@@ -15,7 +15,7 @@ export default function Home() {
       <div className="hero h-[400px] flex justify-center items-center flex-col">
         <h1 className="font-medium">Hei,</h1>
         <div>
-          <p className="font-medium text-xl">Trenger du utvikler?</p>
+          <p className="font-medium text-xl">Trenger du en utvikler?</p>
         </div>
         <div className="p-4 flex gap-4 px-4 mt-5 outline shadow-md rounded-md bg-white outline-1">
           <img src="./USN-symbol_lilla.svg" alt="" className="w-14" />
@@ -33,7 +33,7 @@ export default function Home() {
           ))}
         </div>
       </div>
-      <div className="flex items-end justify-center p-4 gap-2 absolute left-0 right-0 m-auto bottom-5">
+      <div className="fixed bottom-5 left-0 right-0 flex items-end justify-center p-4 gap-2">
         <Link href="https://github.com/Zekima">
           <Github className="text-gray-400 hover:text-gray-800 cursor-pointer" size={24} />
         </Link>
