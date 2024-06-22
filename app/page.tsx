@@ -7,7 +7,8 @@ export default function Home() {
 
   const projects = [
     { title: "DugnadNett", desc: "Bacheloroppgave", image: "./plant-garden.svg" },
-    { title: "MinePay", desc: "Donation Store Platform", image: "./payment-methods.svg" }
+    { title: "MinePay", desc: "Donation Store Platform", image: "./payment-methods.svg" },
+    { title: "DollarDB", desc: "Serverless PostgreSQL Hosting", image: "./dollardb2.svg" }
   ]
 
   return (
